@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="default" defaultIdMethod="native" namespace="Hello" defaultPhpNamingMethod="underscore">
+  <table name="Author" idMethod="native" phpName="Author" namespace="Hello">
+    <column name="Id" phpName="Id" type="INTEGER" size="8" primaryKey="true" required="true"/>
+    <column name="FirstName" phpName="Firstname" type="VARCHAR" size="200" required="true"/>
+    <column name="LastName" phpName="Lastname" type="VARCHAR" size="200" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+  <table name="tabellavuota" idMethod="native" phpName="Tabellavuota" namespace="Hello">
+    <column name="id_key" phpName="IdKey" type="INTEGER" size="64" primaryKey="true" required="true"/>
+    <column name="name" phpName="Name" type="VARCHAR" size="200" required="true"/>
+    <column name="surname" phpName="Surname" type="VARCHAR" size="200" required="true"/>
+    <column name="description" phpName="Description" type="VARCHAR" size="2000" required="true"/>
+    <vendor type="mysql">
+      <parameter name="Engine" value="InnoDB"/>
+    </vendor>
+  </table>
+</database>

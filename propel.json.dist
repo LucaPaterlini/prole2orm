@@ -1,0 +1,8 @@
+{
+    "propel": {
+        "paths": {
+            "schemaDir": "\/home\/pater92\/Desktop\/WorkingVL\/tasks\/Research\/Propel2Orm\/bookstore",
+            "phpDir": "\/home\/pater92\/Desktop\/WorkingVL\/tasks\/Research\/Propel2Orm\/bookstore"
+        }
+    }
+}
